@@ -1,0 +1,756 @@
+{
+  "note": "Each file retains its stated CC licence. Names are excerpts from Skvorets’s Russian alphabet recording. Consonant references are edited IPA recordings and include a full-context alternative; not a complete model of all Russian allophones.",
+  "sounds": [
+    {
+      "id": "b",
+      "file": "assets/audio/b.mp3",
+      "title": "File:Voiced bilabial plosive.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiced_bilabial_plosive.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.1–0.235s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 2.168."
+    },
+    {
+      "id": "ch",
+      "file": "assets/audio/ch.mp3",
+      "title": "File:Voiceless alveolo-palatal affricate.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_alveolo-palatal_affricate.ogg",
+      "author": "Halibutt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.085–0.205s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 1.033."
+    },
+    {
+      "id": "d",
+      "file": "assets/audio/d.mp3",
+      "title": "File:Voiced dental stop.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiced_dental_stop.ogg",
+      "author": "Adamsa123",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": "Phonetic reference excerpt 0.12–0.235s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 2.860."
+    },
+    {
+      "id": "f",
+      "file": "assets/audio/f.mp3",
+      "title": "File:Voiceless labiodental fricative.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_labiodental_fricative.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.2–0.49s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 21.415."
+    },
+    {
+      "id": "g",
+      "file": "assets/audio/g.mp3",
+      "title": "File:Voiced velar plosive.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiced_velar_plosive.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.1–0.215s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 29.913."
+    },
+    {
+      "id": "j",
+      "file": "assets/audio/j.mp3",
+      "title": "File:Palatal approximant.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Palatal_approximant.ogg",
+      "author": "user:karmosin (as credited on the source page)",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.27–0.43s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 3.099."
+    },
+    {
+      "id": "k",
+      "file": "assets/audio/k.mp3",
+      "title": "File:Voiceless velar plosive.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_velar_plosive.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.17–0.255s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 2.796."
+    },
+    {
+      "id": "kh",
+      "file": "assets/audio/kh.mp3",
+      "title": "File:Voiceless velar fricative.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_velar_fricative.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.08–0.27s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 7.190."
+    },
+    {
+      "id": "l",
+      "file": "assets/audio/l.mp3",
+      "title": "File:Velarized alveolar lateral approximant.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Velarized_alveolar_lateral_approximant.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.23–0.4s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 7.191."
+    },
+    {
+      "id": "m",
+      "file": "assets/audio/m.mp3",
+      "title": "File:Bilabial nasal.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bilabial_nasal.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.2–0.35s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 6.254."
+    },
+    {
+      "id": "n",
+      "file": "assets/audio/n.mp3",
+      "title": "File:Alveolar nasal.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Alveolar_nasal.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.24–0.46s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 12.372."
+    },
+    {
+      "id": "p",
+      "file": "assets/audio/p.mp3",
+      "title": "File:Voiceless bilabial plosive.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_bilabial_plosive.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.6–0.725s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 2.235."
+    },
+    {
+      "id": "r",
+      "file": "assets/audio/r.mp3",
+      "title": "File:Alveolar trill.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Alveolar_trill.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.22–0.38s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 2.649."
+    },
+    {
+      "id": "s",
+      "file": "assets/audio/s.mp3",
+      "title": "File:Voiceless alveolar sibilant.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_alveolar_sibilant.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.22–0.48s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 0.695."
+    },
+    {
+      "id": "shch",
+      "file": "assets/audio/shch.mp3",
+      "title": "File:Voiceless alveolo-palatal sibilant.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_alveolo-palatal_sibilant.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.045–0.32s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 1.609."
+    },
+    {
+      "id": "t",
+      "file": "assets/audio/t.mp3",
+      "title": "File:Voiceless dental stop.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_dental_stop.ogg",
+      "author": "Adamsa123",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": "Phonetic reference excerpt 0.11–0.215s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 1.228."
+    },
+    {
+      "id": "v",
+      "file": "assets/audio/v.mp3",
+      "title": "File:Voiced labiodental fricative.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiced_labiodental_fricative.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.2–0.47s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 3.243."
+    },
+    {
+      "id": "z",
+      "file": "assets/audio/z.mp3",
+      "title": "File:Voiced alveolar sibilant.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiced_alveolar_sibilant.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.21–0.4s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 10.796."
+    },
+    {
+      "id": "zh",
+      "file": "assets/audio/zh.mp3",
+      "title": "File:Voiced retroflex sibilant.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiced_retroflex_sibilant.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.19–0.39s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 2.360."
+    },
+    {
+      "id": "name-01",
+      "file": "assets/audio/name-01.mp3",
+      "title": "Russian alphabet.ogg — 1",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 1.77–2.33s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-02",
+      "file": "assets/audio/name-02.mp3",
+      "title": "Russian alphabet.ogg — 2",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 2.58–3.24s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-03",
+      "file": "assets/audio/name-03.mp3",
+      "title": "Russian alphabet.ogg — 3",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 3.52–4.23s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-04",
+      "file": "assets/audio/name-04.mp3",
+      "title": "Russian alphabet.ogg — 4",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 4.52–5.27s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-05",
+      "file": "assets/audio/name-05.mp3",
+      "title": "Russian alphabet.ogg — 5",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 5.42–6.13s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-06",
+      "file": "assets/audio/name-06.mp3",
+      "title": "Russian alphabet.ogg — 6",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 6.38–7.15s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-07",
+      "file": "assets/audio/name-07.mp3",
+      "title": "Russian alphabet.ogg — 7",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 7.40–8.19s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-08",
+      "file": "assets/audio/name-08.mp3",
+      "title": "Russian alphabet.ogg — 8",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 8.38–9.14s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-09",
+      "file": "assets/audio/name-09.mp3",
+      "title": "Russian alphabet.ogg — 9",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 9.34–10.12s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-10",
+      "file": "assets/audio/name-10.mp3",
+      "title": "Russian alphabet.ogg — 10",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 10.29–10.83s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-11",
+      "file": "assets/audio/name-11.mp3",
+      "title": "Russian alphabet.ogg — 11",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 10.97–12.05s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-12",
+      "file": "assets/audio/name-12.mp3",
+      "title": "Russian alphabet.ogg — 12",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 12.25–12.79s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-13",
+      "file": "assets/audio/name-13.mp3",
+      "title": "Russian alphabet.ogg — 13",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 13.08–13.69s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-14",
+      "file": "assets/audio/name-14.mp3",
+      "title": "Russian alphabet.ogg — 14",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 13.98–14.59s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-15",
+      "file": "assets/audio/name-15.mp3",
+      "title": "Russian alphabet.ogg — 15",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 14.88–15.52s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-16",
+      "file": "assets/audio/name-16.mp3",
+      "title": "Russian alphabet.ogg — 16",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 15.79–16.37s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-17",
+      "file": "assets/audio/name-17.mp3",
+      "title": "Russian alphabet.ogg — 17",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 16.59–17.16s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-18",
+      "file": "assets/audio/name-18.mp3",
+      "title": "Russian alphabet.ogg — 18",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 17.45–18.01s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-19",
+      "file": "assets/audio/name-19.mp3",
+      "title": "Russian alphabet.ogg — 19",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 18.31–19.00s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-20",
+      "file": "assets/audio/name-20.mp3",
+      "title": "Russian alphabet.ogg — 20",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 19.20–19.80s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-21",
+      "file": "assets/audio/name-21.mp3",
+      "title": "Russian alphabet.ogg — 21",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 20.05–20.66s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-22",
+      "file": "assets/audio/name-22.mp3",
+      "title": "Russian alphabet.ogg — 22",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 20.88–21.56s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-23",
+      "file": "assets/audio/name-23.mp3",
+      "title": "Russian alphabet.ogg — 23",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 21.75–22.42s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-24",
+      "file": "assets/audio/name-24.mp3",
+      "title": "Russian alphabet.ogg — 24",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 22.59–23.35s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-25",
+      "file": "assets/audio/name-25.mp3",
+      "title": "Russian alphabet.ogg — 25",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 23.55–24.25s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-26",
+      "file": "assets/audio/name-26.mp3",
+      "title": "Russian alphabet.ogg — 26",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 24.41–25.24s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-27",
+      "file": "assets/audio/name-27.mp3",
+      "title": "Russian alphabet.ogg — 27",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 25.30–26.17s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-28",
+      "file": "assets/audio/name-28.mp3",
+      "title": "Russian alphabet.ogg — 28",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 26.29–27.49s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-29",
+      "file": "assets/audio/name-29.mp3",
+      "title": "Russian alphabet.ogg — 29",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 27.59–28.14s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-30",
+      "file": "assets/audio/name-30.mp3",
+      "title": "Russian alphabet.ogg — 30",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 28.30–29.55s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-31",
+      "file": "assets/audio/name-31.mp3",
+      "title": "Russian alphabet.ogg — 31",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 29.71–30.34s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-32",
+      "file": "assets/audio/name-32.mp3",
+      "title": "Russian alphabet.ogg — 32",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 30.53–31.26s; split at silence and converted to MP3."
+    },
+    {
+      "id": "name-33",
+      "file": "assets/audio/name-33.mp3",
+      "title": "Russian alphabet.ogg — 33",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_alphabet.ogg",
+      "author": "Skvorets; audio re-exported by SCEhardt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Excerpt 31.42–32.11s; split at silence and converted to MP3."
+    },
+    {
+      "id": "sh",
+      "file": "assets/audio/sh.mp3",
+      "title": "Voiceless_retroflex_sibilant.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_retroflex_sibilant.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.12–0.45s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 0.875."
+    },
+    {
+      "id": "b-context",
+      "file": "assets/audio/b-context.mp3",
+      "title": "File:Voiced bilabial plosive.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiced_bilabial_plosive.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "v-context",
+      "file": "assets/audio/v-context.mp3",
+      "title": "File:Voiced labiodental fricative.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiced_labiodental_fricative.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "g-context",
+      "file": "assets/audio/g-context.mp3",
+      "title": "File:Voiced velar plosive.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiced_velar_plosive.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "d-context",
+      "file": "assets/audio/d-context.mp3",
+      "title": "File:Voiced dental stop.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiced_dental_stop.ogg",
+      "author": "Adamsa123",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "zh-context",
+      "file": "assets/audio/zh-context.mp3",
+      "title": "File:Voiced retroflex sibilant.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiced_retroflex_sibilant.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "z-context",
+      "file": "assets/audio/z-context.mp3",
+      "title": "File:Voiced alveolar sibilant.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiced_alveolar_sibilant.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "j-context",
+      "file": "assets/audio/j-context.mp3",
+      "title": "File:Palatal approximant.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Palatal_approximant.ogg",
+      "author": "user:karmosin (as credited on the source page)",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "k-context",
+      "file": "assets/audio/k-context.mp3",
+      "title": "File:Voiceless velar plosive.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_velar_plosive.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "l-context",
+      "file": "assets/audio/l-context.mp3",
+      "title": "File:Velarized alveolar lateral approximant.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Velarized_alveolar_lateral_approximant.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "m-context",
+      "file": "assets/audio/m-context.mp3",
+      "title": "File:Bilabial nasal.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bilabial_nasal.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "n-context",
+      "file": "assets/audio/n-context.mp3",
+      "title": "File:Alveolar nasal.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Alveolar_nasal.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "p-context",
+      "file": "assets/audio/p-context.mp3",
+      "title": "File:Voiceless bilabial plosive.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_bilabial_plosive.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "r-context",
+      "file": "assets/audio/r-context.mp3",
+      "title": "File:Alveolar trill.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Alveolar_trill.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "s-context",
+      "file": "assets/audio/s-context.mp3",
+      "title": "File:Voiceless alveolar sibilant.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_alveolar_sibilant.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "t-context",
+      "file": "assets/audio/t-context.mp3",
+      "title": "File:Voiceless dental stop.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_dental_stop.ogg",
+      "author": "Adamsa123",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "f-context",
+      "file": "assets/audio/f-context.mp3",
+      "title": "File:Voiceless labiodental fricative.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_labiodental_fricative.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "kh-context",
+      "file": "assets/audio/kh-context.mp3",
+      "title": "File:Voiceless velar fricative.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_velar_fricative.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "ts",
+      "file": "assets/audio/ts.mp3",
+      "title": "Voiceless alveolar sibilant affricate.oga",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_alveolar_sibilant_affricate.oga",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Phonetic reference excerpt 0.29–0.485s, short fades, repeated three times with silence; MP3 conversion. This is an educational edit, not a new native-speaker recording. Playback level adjusted by factor 5.437."
+    },
+    {
+      "id": "ts-context",
+      "file": "assets/audio/ts-context.mp3",
+      "title": "Voiceless alveolar sibilant affricate.oga",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_alveolar_sibilant_affricate.oga",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "ch-context",
+      "file": "assets/audio/ch-context.mp3",
+      "title": "File:Voiceless alveolo-palatal affricate.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_alveolo-palatal_affricate.ogg",
+      "author": "Halibutt",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "sh-context",
+      "file": "assets/audio/sh-context.mp3",
+      "title": "Voiceless_retroflex_sibilant.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_retroflex_sibilant.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    },
+    {
+      "id": "shch-context",
+      "file": "assets/audio/shch-context.mp3",
+      "title": "File:Voiceless alveolo-palatal sibilant.ogg",
+      "source": "https://commons.wikimedia.org/wiki/File:Voiceless_alveolo-palatal_sibilant.ogg",
+      "author": "Peter Isotalo",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Full source phonetic context recording converted to MP3."
+    }
+  ],
+  "errors": []
+}

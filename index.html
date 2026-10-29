@@ -6,35 +6,44 @@
   <meta name="theme-color" content="#173d35">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="description" content="每天一小课，把俄语放进旅行。首周7课：字母、短句、听力与开口练习。">
-  <title>俄语90天 · 旅行口袋课</title>
+  <meta name="description" content="每天一小课，把俄语放进旅行。课程按周持续增加，练习听、说、读和键盘拼写。">
+  <title>俄语旅行口袋课</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./icon-192.png">
-  <link rel="stylesheet" href="./styles.css?v=week1-4">
-  <script src="./course-data.js?v=week1-4" defer></script>
-  <script src="./core.js?v=week1-4" defer></script>
-  <script src="./app.js?v=week1-4" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=pocket-2-1">
+  <link rel="preload" href="./assets/fonts/pocket-cyrillic.woff" as="font" type="font/woff" crossorigin>
+  <script src="./core.js?v=pocket-2-1" defer></script>
+  <script src="./loader.js?v=pocket-2-1" defer></script>
+  <script src="./audio.js?v=pocket-2-1" defer></script>
+  <script src="./app.js?v=pocket-2-1" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">跳到学习内容</a>
   <header class="site-header">
-    <button class="brand" id="homeLink" aria-label="回到课程首页"><span class="brand-mark" lang="ru">Я</span><span>俄语90天<small>旅行口袋课</small></span></button>
-    <div class="header-actions"><span class="connection" id="connectionState">首周样课</span><button class="icon-button" id="settingsBtn" aria-label="语音与学习记录" title="语音与学习记录"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 7h10m4 0h2M4 17h2m4 0h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg></button></div>
+    <button class="brand" id="homeLink" aria-label="回到课程首页"><span class="brand-mark" lang="ru">Я</span><span>俄语口袋课<small>每天一点，走得更远</small></span></button>
+    <div class="header-actions"><span class="connection" id="connectionState">在线</span><button class="icon-button" id="settingsBtn" aria-label="更多功能" title="更多功能">⋯</button></div>
   </header>
   <main id="main" tabindex="-1"></main>
   <footer class="site-footer">每天一点，把俄语带进下一次旅行。<span>学习记录保存在这台设备</span></footer>
   <dialog id="settingsDialog" aria-labelledby="settingsTitle">
-    <div class="dialog-top"><h2 id="settingsTitle">语音与学习记录</h2><button class="icon-button" data-close-dialog aria-label="关闭">×</button></div>
+    <div class="dialog-top"><h2 id="settingsTitle">更多功能</h2><button class="icon-button" data-close-dialog aria-label="关闭">×</button></div>
+    <button class="primary dark wide" id="alphabetLink">33个字母表 · 点读与清浊对照</button>
+    <hr><h3>朗读声音</h3>
     <p class="muted" id="voiceStatus">正在检查设备上的俄语声音。</p>
     <label class="field-label" for="voiceSelect">俄语声音</label><select id="voiceSelect"></select>
-    <p class="muted small">朗读使用设备或浏览器提供的声音。离线能否朗读取决于是否有本地俄语声音。</p>
-    <button class="secondary wide" id="testVoice">试听「Приве́т!」</button>
+    <p class="muted small">字母音值有固定录音。词句离线朗读取决于设备是否有本地俄语声音。</p>
+    <button class="secondary wide" id="testVoice" data-voice-key="voice-test">试听「Приве́т!」</button>
     <hr><h3>保留你的学习记录</h3><p class="muted small">完成记录、首次成绩和错项保存在当前浏览器。可以下载一份备份。</p>
     <button class="secondary wide" id="exportProgress">导出学习记录</button>
-    <hr><h3>怎么安装到手机</h3><p class="muted small">部署到 GitHub Pages 后，用 iPhone 的 Safari 打开网址，再从分享菜单添加到主屏幕。首次联网打开并完成缓存后，可离线查看课程。</p>
+    <label class="secondary wide import-label">导入学习记录<input type="file" id="importProgress" accept="application/json,.json"></label>
+    <p class="muted small">导入会合并课号；同一课使用备份中的记录。导入后可撤销。</p>
+    <button class="plain-button" id="undoImport" hidden>撤销上次导入</button>
+    <hr><button class="secondary wide" id="checkUpdates">检查新课程与应用更新</button>
+    <hr><h3>怎么安装到手机</h3><p class="muted small">用 Safari 打开 GitHub Pages 网址，从分享菜单添加到主屏幕。首页可下载一周课程和字母音频。词句声音还需要本地俄语语音。</p>
   </dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="playbackState" class="playback-state" role="status" aria-live="polite"></div>
   <noscript><p class="noscript">请开启 JavaScript 后使用课程。完整文字样课位于 docs/russian_week1_complete_lessons.md。</p></noscript>
 </body>
 </html>

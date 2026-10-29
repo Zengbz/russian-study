@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 2,
+  "weeks": [
+    {
+      "week": 1,
+      "title": "先学会开口",
+      "summary": "20个字母、问候、姓名与沟通补救",
+      "file": "courses/week1-course.json",
+      "revision": "2898f50eaea82aeae413a3ef71c0e70e9ad3d02859bb2601e1141c0e2587ee77",
+      "lessons": [
+        {
+          "day": 1,
+          "title": "第一声你好",
+          "subtitle": "А О М Т · 问候与告别",
+          "kind": "新课",
+          "tasks": 15
+        },
+        {
+          "day": 2,
+          "title": "把礼貌带上",
+          "subtitle": "К С Е Н · 谢谢、请、劳驾",
+          "kind": "新课",
+          "tasks": 15
+        },
+        {
+          "day": 3,
+          "title": "说出你的名字",
+          "subtitle": "Р В У Б · 自我介绍",
+          "kind": "新课",
+          "tasks": 15
+        },
+        {
+          "day": 4,
+          "title": "听不懂也能继续聊",
+          "subtitle": "И П Л Д · 请求重复",
+          "kind": "新课",
+          "tasks": 15
+        },
+        {
+          "day": 5,
+          "title": "认出街头的几个词",
+          "subtitle": "Г З Ы Й · 地铁、银行、出租车",
+          "kind": "新课",
+          "tasks": 15
+        },
+        {
+          "day": 6,
+          "title": "把前五天连起来",
+          "subtitle": "20字母 · 听懂与开口分开检查",
+          "kind": "复习",
+          "tasks": 15
+        },
+        {
+          "day": 7,
+          "title": "第一次和旅伴搭话",
+          "subtitle": "场景任务 · 认识旅伴与询问地铁",
+          "kind": "场景任务",
+          "tasks": 12
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "title": "读懂33个字母",
+      "summary": "补齐字母、重音与硬软音；开始键盘拼写和听写",
+      "file": "courses/week2-course.json",
+      "revision": "71c2e4f8cc9d18c38d250aac205069a9921a556dc69bd53f2f67daeedeb986dd",
+      "lessons": [
+        {
+          "day": 8,
+          "title": "第六组字母与旅行物品",
+          "subtitle": "Ж · Ш · Ч · Щ",
+          "kind": "新课",
+          "tasks": 14
+        },
+        {
+          "day": 9,
+          "title": "第七组字母与元音",
+          "subtitle": "Ё · Ю · Я · Э",
+          "kind": "新课",
+          "tasks": 14
+        },
+        {
+          "day": 10,
+          "title": "最后五个字母与出入口",
+          "subtitle": "Ф · Х · Ц · Ь · Ъ",
+          "kind": "新课",
+          "tasks": 14
+        },
+        {
+          "day": 11,
+          "title": "重音与非重读元音",
+          "subtitle": "先听重音，再拼读",
+          "kind": "新课",
+          "tasks": 14
+        },
+        {
+          "day": 12,
+          "title": "辅音硬软与数字初识",
+          "subtitle": "день · деньги · семь · восемь",
+          "kind": "新课",
+          "tasks": 14
+        },
+        {
+          "day": 13,
+          "title": "复习：33个字母与拼读",
+          "subtitle": "字形、声音、重音与拼写",
+          "kind": "复习",
+          "tasks": 15
+        },
+        {
+          "day": 14,
+          "title": "场景任务：看标识、求帮助",
+          "subtitle": "在陌生街区找到入口",
+          "kind": "场景任务",
+          "tasks": 14
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "title": "介绍自己与认识旅伴",
+      "summary": "人称、名词的性、来源、职业与否定；持续拼写和听写",
+      "file": "courses/week3-course.json",
+      "revision": "65477c5e7366685b7bd67ee8e18369315b20004491b2e5f3f0a1711ec658382f",
+      "lessons": [
+        {
+          "day": 15,
+          "title": "这是谁、这是什么",
+          "subtitle": "Кто · Что · Это",
+          "kind": "新课",
+          "tasks": 14
+        },
+        {
+          "day": 16,
+          "title": "人称代词与指代",
+          "subtitle": "я · вы · он · она",
+          "kind": "新课",
+          "tasks": 14
+        },
+        {
+          "day": 17,
+          "title": "旅行名词的性",
+          "subtitle": "阳性 · 阴性 · 中性",
+          "kind": "新课",
+          "tasks": 14
+        },
+        {
+          "day": 18,
+          "title": "我来自哪里",
+          "subtitle": "Я из…作为整句语块",
+          "kind": "新课",
+          "tasks": 14
+        },
+        {
+          "day": 19,
+          "title": "职业、否定和也",
+          "subtitle": "Я программист · не · тоже",
+          "kind": "新课",
+          "tasks": 14
+        },
+        {
+          "day": 20,
+          "title": "复习：个人信息",
+          "subtitle": "指代、身份与旅行名词",
+          "kind": "复习",
+          "tasks": 15
+        },
+        {
+          "day": 21,
+          "title": "场景任务：认识旅伴",
+          "subtitle": "从问候到介绍自己",
+          "kind": "场景任务",
+          "tasks": 15
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "title": "描述物品与数字0—10",
+      "summary": "物品归属、大小新旧、单复数与模拟号码；持续拼写、听写和开口",
+      "file": "courses/week4-course.json",
+      "revision": "582ccaa20d22c5cf4c8155aba527fefb6c8a6d267ce6e237cc4818f8e57e4df8",
+      "lessons": [
+        {
+          "day": 22,
+          "title": "我的、您的、谁的",
+          "subtitle": "мой · моя · моё；ваш；чей",
+          "kind": "新课",
+          "tasks": 15
+        },
+        {
+          "day": 23,
+          "title": "描述大小和新旧",
+          "subtitle": "新的、旧的、大的、小的、好的",
+          "kind": "新课",
+          "tasks": 15
+        },
+        {
+          "day": 24,
+          "title": "一个和多个",
+          "subtitle": "сумка → сумки；мой → мои",
+          "kind": "新课",
+          "tasks": 15
+        },
+        {
+          "day": 25,
+          "title": "数字0—5",
+          "subtitle": "从数字到一张、两张票",
+          "kind": "新课",
+          "tasks": 15
+        },
+        {
+          "day": 26,
+          "title": "数字6—10与号码",
+          "subtitle": "把模拟号码逐位听出来",
+          "kind": "新课",
+          "tasks": 15
+        },
+        {
+          "day": 27,
+          "title": "复习：描述物品与数字",
+          "subtitle": "归属、性数配合与0—10",
+          "kind": "复习",
+          "tasks": 15
+        },
+        {
+          "day": 28,
+          "title": "场景任务：辨认行李和证件",
+          "subtitle": "认领包、描述护照、核对模拟号码",
+          "kind": "场景任务",
+          "tasks": 15
+        }
+      ]
+    }
+  ]
+}
