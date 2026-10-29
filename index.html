@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#173d35">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="description" content="每天一小课，把俄语放进旅行。首周7课：字母、短句、听力与开口练习。">
+  <title>俄语90天 · 旅行口袋课</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icon-192.png">
+  <link rel="stylesheet" href="./styles.css?v=week1-4">
+  <script src="./course-data.js?v=week1-4" defer></script>
+  <script src="./core.js?v=week1-4" defer></script>
+  <script src="./app.js?v=week1-4" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到学习内容</a>
+  <header class="site-header">
+    <button class="brand" id="homeLink" aria-label="回到课程首页"><span class="brand-mark" lang="ru">Я</span><span>俄语90天<small>旅行口袋课</small></span></button>
+    <div class="header-actions"><span class="connection" id="connectionState">首周样课</span><button class="icon-button" id="settingsBtn" aria-label="语音与学习记录" title="语音与学习记录"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 7h10m4 0h2M4 17h2m4 0h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg></button></div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer">每天一点，把俄语带进下一次旅行。<span>学习记录保存在这台设备</span></footer>
+  <dialog id="settingsDialog" aria-labelledby="settingsTitle">
+    <div class="dialog-top"><h2 id="settingsTitle">语音与学习记录</h2><button class="icon-button" data-close-dialog aria-label="关闭">×</button></div>
+    <p class="muted" id="voiceStatus">正在检查设备上的俄语声音。</p>
+    <label class="field-label" for="voiceSelect">俄语声音</label><select id="voiceSelect"></select>
+    <p class="muted small">朗读使用设备或浏览器提供的声音。离线能否朗读取决于是否有本地俄语声音。</p>
+    <button class="secondary wide" id="testVoice">试听「Приве́т!」</button>
+    <hr><h3>保留你的学习记录</h3><p class="muted small">完成记录、首次成绩和错项保存在当前浏览器。可以下载一份备份。</p>
+    <button class="secondary wide" id="exportProgress">导出学习记录</button>
+    <hr><h3>怎么安装到手机</h3><p class="muted small">部署到 GitHub Pages 后，用 iPhone 的 Safari 打开网址，再从分享菜单添加到主屏幕。首次联网打开并完成缓存后，可离线查看课程。</p>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">请开启 JavaScript 后使用课程。完整文字样课位于 docs/russian_week1_complete_lessons.md。</p></noscript>
+</body>
+</html>
