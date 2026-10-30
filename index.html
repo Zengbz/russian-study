@@ -11,12 +11,12 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./icon-192.png">
-  <link rel="stylesheet" href="./styles.css?v=pocket-2-1">
+  <link rel="stylesheet" href="./styles.css?v=pocket-2-2">
   <link rel="preload" href="./assets/fonts/pocket-cyrillic.woff" as="font" type="font/woff" crossorigin>
-  <script src="./core.js?v=pocket-2-1" defer></script>
-  <script src="./loader.js?v=pocket-2-1" defer></script>
-  <script src="./audio.js?v=pocket-2-1" defer></script>
-  <script src="./app.js?v=pocket-2-1" defer></script>
+  <script src="./core.js?v=pocket-2-2" defer></script>
+  <script src="./loader.js?v=pocket-2-2" defer></script>
+  <script src="./audio.js?v=pocket-2-2" defer></script>
+  <script src="./app.js?v=pocket-2-2" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">跳到学习内容</a>
@@ -34,6 +34,7 @@
     <label class="field-label" for="voiceSelect">俄语声音</label><select id="voiceSelect"></select>
     <p class="muted small">字母音值有固定录音。词句离线朗读取决于设备是否有本地俄语声音。</p>
     <button class="secondary wide" id="testVoice" data-voice-key="voice-test">试听「Приве́т!」</button>
+    <p class="muted small">v2.2：已加入静音模式播放兼容处理。请保持媒体音量；部分iOS版本的词句朗读仍可能需要关闭静音，以本机试听为准。</p>
     <hr><h3>保留你的学习记录</h3><p class="muted small">完成记录、首次成绩和错项保存在当前浏览器。可以下载一份备份。</p>
     <button class="secondary wide" id="exportProgress">导出学习记录</button>
     <label class="secondary wide import-label">导入学习记录<input type="file" id="importProgress" accept="application/json,.json"></label>

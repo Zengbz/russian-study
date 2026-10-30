@@ -76,11 +76,11 @@ test('Service Worker在仓库子路径预缓存，离线返回课程，缺失脚
  vm.runInNewContext(fs.readFileSync(path.join(root,'sw.js'),'utf8'),context);
  let pending;handlers.install({waitUntil:p=>pending=p});await pending;handlers.activate({waitUntil:p=>pending=p});await pending;
  assert.equal(skip,1);assert.equal(claim,1);const stored=[...stores.values()][0];
- assert.ok([...stored.keys()].every(k=>k.startsWith(scope)));assert.ok(stored.has(scope+'app.js?v=pocket-2-1'));
+ assert.ok([...stored.keys()].every(k=>k.startsWith(scope)));assert.ok(stored.has(scope+'app.js?v=pocket-2-2'));
  offline=true;
  const run=req=>{let result;handlers.fetch({request:req,respondWith:p=>result=p});return result;};
  const nav=await run({method:'GET',url:scope+'index.html',mode:'navigate'});assert.match(await nav.text(),/index.html/);
- const js=await run({method:'GET',url:scope+'app.js?v=pocket-2-1',mode:'cors'});assert.match(await js.text(),/app.js/);
+ const js=await run({method:'GET',url:scope+'app.js?v=pocket-2-2',mode:'cors'});assert.match(await js.text(),/app.js/);
  await assert.rejects(run({method:'GET',url:scope+'missing.js',mode:'cors'}),/offline/);
  assert.equal(run({method:'GET',url:'https://elsewhere.test/file',mode:'cors'}),undefined);
 });

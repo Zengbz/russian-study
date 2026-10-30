@@ -1,9 +1,9 @@
 const SCOPE=self.registration.scope;
 const PREFIX='ru-pocket-shell-'+encodeURIComponent(new URL(SCOPE).pathname)+'-';
 const OLD_PREFIX='ru90-week1-'+encodeURIComponent(new URL(SCOPE).pathname)+'-';
-const CACHE=PREFIX+'v2-1-20261029';
+const CACHE=PREFIX+'v2-2-20261030';
 const DATA='ru-pocket-data-'+encodeURIComponent(new URL(SCOPE).pathname);
-const FILES=['./','./index.html','./styles.css?v=pocket-2-1','./core.js?v=pocket-2-1','./loader.js?v=pocket-2-1','./audio.js?v=pocket-2-1','./app.js?v=pocket-2-1','./alphabet.json','./roadmap.json','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./assets/fonts/pocket-cyrillic.woff','./assets/fonts/pocket-cyrillic-bold.woff','./AUDIO-CREDITS.html'];
+const FILES=['./','./index.html','./styles.css?v=pocket-2-2','./core.js?v=pocket-2-2','./loader.js?v=pocket-2-2','./audio.js?v=pocket-2-2','./app.js?v=pocket-2-2','./alphabet.json','./roadmap.json','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./assets/fonts/pocket-cyrillic.woff','./assets/fonts/pocket-cyrillic-bold.woff','./AUDIO-CREDITS.html'];
 self.addEventListener('install',e=>e.waitUntil((async()=>{const c=await caches.open(CACHE);await c.addAll(FILES.map(p=>new Request(new URL(p,SCOPE),{cache:'reload'})));await self.skipWaiting();})()));
 self.addEventListener('activate',e=>e.waitUntil((async()=>{await Promise.all((await caches.keys()).filter(k=>(k.startsWith(PREFIX)&&k!==CACHE)||k.startsWith(OLD_PREFIX)).map(k=>caches.delete(k)));await self.clients.claim();})()));
 self.addEventListener('message',e=>{if(e.data?.type==='SKIP_WAITING')self.skipWaiting();});
