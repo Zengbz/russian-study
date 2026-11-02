@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "kind": "module-catalog",
+  "modules": [
+    {
+      "schemaVersion": 1,
+      "kind": "learning-module",
+      "id": "grammar",
+      "title": "语法专项",
+      "summary": "按知识点查阅与练习，从入门到进阶，自由选择学习顺序。",
+      "order": 10,
+      "symbol": "Г",
+      "categories": [
+        {
+          "id": "basics",
+          "title": "语法入门",
+          "summary": "先看懂词语在句子中的作用，再练性、数、疑问与否定。",
+          "order": 10,
+          "file": "modules/grammar/basics.json",
+          "revision": "31085a6c0c6edfba446499f19967d739857ba66434bee9f3585645e8e49b62c3",
+          "lessons": [
+            {
+              "id": "basics-parts",
+              "title": "词类与句子成分",
+              "goal": "找出谁、做什么、什么样，读懂最短俄语句子。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "basics-gender",
+              "title": "名词的性",
+              "goal": "用名词本身的性选择мой、моя、моё。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "basics-plural",
+              "title": "名词的单复数",
+              "goal": "辨认一件与多件，并跟着复数调整归属词。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "basics-questions",
+              "title": "疑问与否定",
+              "goal": "区分问人、问物、问地点，并把не放到要否定的部分前。",
+              "level": "基础",
+              "tasks": 8
+            }
+          ]
+        },
+        {
+          "id": "cases",
+          "title": "名词、格与介词",
+          "summary": "按表达用途学习六个格，比较位置、去向、来源及常用搭配。",
+          "order": 20,
+          "file": "modules/grammar/cases.json",
+          "revision": "720d8279f76c95c879d7dcea78ce008e672f5b63b36ae4f6bd684eb13fc4a0ec",
+          "lessons": [
+            {
+              "id": "cases-nominative",
+              "title": "主格：介绍与拥有",
+              "goal": "识别基本形式，说明这是什么、谁在做事、有什么。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "cases-accusative",
+              "title": "宾格：动作对象",
+              "goal": "用熟悉名词表达想要什么，并认识人的宾格。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "cases-genitive",
+              "title": "属格：没有与来源",
+              "goal": "在нет和из后选用熟悉名词的属格。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "cases-dative",
+              "title": "与格：给谁、向谁",
+              "goal": "识别接受者，并使用мне、вам和к другу。",
+              "level": "进阶",
+              "tasks": 8
+            },
+            {
+              "id": "cases-instrumental",
+              "title": "工具格：和谁、用什么",
+              "goal": "说明与谁一起、用什么付款，以及从事什么工作。",
+              "level": "进阶",
+              "tasks": 8
+            },
+            {
+              "id": "cases-prepositional",
+              "title": "前置格：在哪里、谈什么",
+              "goal": "对照静态位置与谈论对象的常用搭配。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "cases-location",
+              "title": "位置、去向与来源对照",
+              "goal": "通过问题选结构，不只凭中文“在、去、从”记单词。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "cases-prepositions",
+              "title": "常用介词搭配",
+              "goal": "区分с的两种用途，并按短语记介词与格。",
+              "level": "进阶",
+              "tasks": 8
+            }
+          ]
+        },
+        {
+          "id": "modifiers",
+          "title": "形容词与代词",
+          "summary": "让描述词、归属词和代词随句子的需要变化。",
+          "order": 30,
+          "file": "modules/grammar/modifiers.json",
+          "revision": "285635edcf8c4738b163a1e448d781f9756bfe8a41b39db58bdfe89cebec82ca",
+          "lessons": [
+            {
+              "id": "modifiers-agreement",
+              "title": "形容词的性数配合",
+              "goal": "让“新的、好的、大的”跟名词配合。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "modifiers-cases",
+              "title": "形容词的常见格变化",
+              "goal": "让形容词跟名词一起变，不只改名词词尾。",
+              "level": "进阶",
+              "tasks": 8
+            },
+            {
+              "id": "modifiers-personal",
+              "title": "人称代词与常用变格",
+              "goal": "按句子需要选择я、мне、у него和с ним。",
+              "level": "进阶",
+              "tasks": 8
+            },
+            {
+              "id": "modifiers-possessive",
+              "title": "物主代词：谁的东西",
+              "goal": "区分我的、您的、他的和他们的，并与物品配合。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "modifiers-demonstrative",
+              "title": "指示词：Это与этот",
+              "goal": "区分“这是……”和“这个东西”。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "modifiers-interrogative",
+              "title": "疑问代词：谁、什么、哪一个、谁的",
+              "goal": "根据询问信息选问词，并注意какой和чей的配合。",
+              "level": "基础",
+              "tasks": 8
+            }
+          ]
+        },
+        {
+          "id": "verbs",
+          "title": "动词与时态",
+          "summary": "练人称、时态、常用特殊动词，再接触体和运动动词。",
+          "order": 40,
+          "file": "modules/grammar/verbs.json",
+          "revision": "e1297cf5125b4330e0a1e0bbc3286e3e22953b89f634cd0de957ca4d96afdd77",
+          "lessons": [
+            {
+              "id": "verbs-present",
+              "title": "原形与现在时",
+              "goal": "识别词典原形和句子中的人称形式。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "verbs-first",
+              "title": "第一变位：читать一组",
+              "goal": "把читать与六个人称配对，先熟练我与您。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "verbs-second",
+              "title": "第二变位：говорить一组",
+              "goal": "区分говорю、говорите和говорят等形式。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "verbs-special",
+              "title": "常用特殊动词",
+              "goal": "整组记хотеть、мочь、есть、пить的高频形式。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "verbs-past",
+              "title": "过去时的性与数",
+              "goal": "按主语选-л、-ла、-ло、-ли，并复习был。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "verbs-future",
+              "title": "将来时：буду＋原形",
+              "goal": "用буду、будем、будете说明计划。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "verbs-aspect",
+              "title": "动词体：过程与整体结果",
+              "goal": "初步区分читать／прочитать、покупать／купить。",
+              "level": "进阶",
+              "tasks": 8
+            },
+            {
+              "id": "verbs-motion",
+              "title": "运动动词：一次去与经常去",
+              "goal": "比较иду／хожу、еду／езжу的常见情境。",
+              "level": "进阶",
+              "tasks": 8
+            },
+            {
+              "id": "verbs-reflexive",
+              "title": "反身动词：-ся与-сь",
+              "goal": "认识умываюсь、учится、называется的常见结构。",
+              "level": "进阶",
+              "tasks": 8
+            },
+            {
+              "id": "verbs-imperative",
+              "title": "命令式与礼貌请求",
+              "goal": "用Дайте、Повторите、Помогите提出明确请求。",
+              "level": "基础",
+              "tasks": 8
+            }
+          ]
+        },
+        {
+          "id": "patterns",
+          "title": "常用句型",
+          "summary": "把有无、需求、喜好和连接关系组合成实用表达。",
+          "order": 50,
+          "file": "modules/grammar/patterns.json",
+          "revision": "b3e307cbc8c8ee54ca87c80bfa8ae92db43e03c62ba06343043dc8cbcd3a6f0f",
+          "lessons": [
+            {
+              "id": "patterns-possession",
+              "title": "有与没有",
+              "goal": "组合У меня есть、У вас есть…?和нет。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "patterns-needs",
+              "title": "想要、需要与可以",
+              "goal": "区分Я хочу、Мне нужен和Можно…?。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "patterns-feelings",
+              "title": "喜欢与状态：мне结构",
+              "goal": "用мне说明喜欢什么、自己感觉如何。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "patterns-connectors",
+              "title": "连接句子与说明原因",
+              "goal": "用и、но、потому что连接熟悉短句。",
+              "level": "进阶",
+              "tasks": 8
+            }
+          ]
+        },
+        {
+          "id": "numbers",
+          "title": "数词与时间",
+          "summary": "把数字用于数量、时刻、日期、年龄和时长。",
+          "order": 60,
+          "file": "modules/grammar/numbers.json",
+          "revision": "1b83cea0ce1cab8f86d1d8620b851c7f09c77ee0906baf87cae052cc859f0513",
+          "lessons": [
+            {
+              "id": "numbers-quantity",
+              "title": "数词与名词搭配",
+              "goal": "用билет一组掌握1、2—4、5及11—14的常见搭配。",
+              "level": "进阶",
+              "tasks": 8
+            },
+            {
+              "id": "numbers-time",
+              "title": "几点与在几点",
+              "goal": "区分询问当前时间和事件发生的时刻。",
+              "level": "基础",
+              "tasks": 8
+            },
+            {
+              "id": "numbers-date",
+              "title": "日期与序数词入门",
+              "goal": "先区分几号与在几号，练一日和五日。",
+              "level": "进阶",
+              "tasks": 8
+            },
+            {
+              "id": "numbers-age-duration",
+              "title": "年龄与时长",
+              "goal": "用мне表达年龄，并练几天的常用搭配。",
+              "level": "进阶",
+              "tasks": 8
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

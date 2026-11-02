@@ -101,6 +101,18 @@
       if(!/^\d+$/.test(k)||!d||typeof d!=='object'||(d.runs&&!Array.isArray(d.runs)))throw new Error('学习记录格式无效。');
       if(d.attempt&&(!Number.isInteger(d.attempt.index)||d.attempt.index<0||!d.attempt.records||!d.attempt.work))throw new Error('练习记录不完整。');
     }
+    if(s.modules!==undefined){
+      const object=x=>x&&typeof x==='object'&&!Array.isArray(x),id=x=>/^[a-z][a-z0-9-]{0,63}$/.test(x)&&!['constructor','prototype','__proto__'].includes(x);
+      if(!object(s.modules))throw new Error('专项学习记录格式无效。');
+      for(const [moduleId,m] of Object.entries(s.modules)){
+        if(!id(moduleId)||!object(m)||!object(m.lessons))throw new Error('模块学习记录格式无效。');
+        for(const [lessonId,d] of Object.entries(m.lessons)){
+          if(!id(lessonId)||!object(d)||(d.runs&&!Array.isArray(d.runs))||(d.attempt&&(!Number.isInteger(d.attempt.index)||d.attempt.index<0||!object(d.attempt.records)||!object(d.attempt.work))))throw new Error('专题练习记录不完整。');
+        }
+        if(m.resume&&(!object(m.resume)||!id(m.resume.id)||!['learn','practice','result'].includes(m.resume.view)))throw new Error('专题继续学习记录无效。');
+        if(m.browse&&(!object(m.browse)||!id(m.browse.category)||!Number.isSafeInteger(m.browse.page)||m.browse.page<1))throw new Error('专题分页记录无效。');
+      }
+    }
     // JSON roundtrip + forbidden-key rejection prevents prototype keys in imports.
     return JSON.parse(JSON.stringify(s),(key,value)=>{if(['__proto__','prototype','constructor'].includes(key))throw new Error('备份包含无效字段。');return value;});
   }

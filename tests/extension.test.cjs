@@ -50,8 +50,8 @@ test('目录不限周数，允许缺号，拒绝重复课号与外部地址',()=
 test('新增任意周JSON可自动发现，既有周数不写死',()=>{
  const os=require('node:os'),{execFileSync}=require('node:child_process'),dir=fs.mkdtempSync(path.join(os.tmpdir(),'ru-course-build-'));
  try{
-  for(const f of ['index.html','styles.css','app.js','core.js','loader.js','audio.js','sw.js','alphabet.json','roadmap.json','manifest.webmanifest','icon.svg','icon-192.png','icon-512.png','AUDIO-CREDITS.html','.nojekyll'])fs.copyFileSync(path.join(root,f),path.join(dir,f));
-  for(const d of ['assets','courses','scripts'])fs.cpSync(path.join(root,d),path.join(dir,d),{recursive:true});
+  for(const f of ['index.html','styles.css','app.js','core.js','loader.js','audio.js','modules.js','module-ui.js','sw.js','alphabet.json','roadmap.json','manifest.webmanifest','icon.svg','icon-192.png','icon-512.png','AUDIO-CREDITS.html','.nojekyll'])fs.copyFileSync(path.join(root,f),path.join(dir,f));
+  for(const d of ['assets','courses','scripts','modules'])fs.cpSync(path.join(root,d),path.join(dir,d),{recursive:true});
   const existingFiles=fs.readdirSync(path.join(root,'courses')).filter(f=>/^week[1-9]\d*-course\.json$/.test(f));
   const existing=existingFiles.map(f=>read('courses/'+f)),weeks=existing.map(p=>p.week).sort((a,b)=>a-b);
   const extraWeek=Math.max(...weeks)+1000,extraDay=Math.max(...existing.flatMap(p=>p.lessons.map(l=>l.day)))+1000;

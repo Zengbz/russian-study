@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "kind": "learning-module",
+  "id": "grammar",
+  "title": "语法专项",
+  "summary": "按知识点查阅与练习，从入门到进阶，自由选择学习顺序。",
+  "order": 10,
+  "symbol": "Г"
+}

@@ -1,28 +1,58 @@
-# 俄语旅行口袋课 v2.1.1
+# 俄语旅行口袋课 v3.0 · 自由专题模块版
 
-适合手机PWA的俄语旅行入门课程。已完成第1—4周，共28课、406项任务，含67道键盘输入题。课程按周增加，不限90天。
+手机 PWA，适合旅行前的俄语入门。每日课程现有13周、90课、1342项任务（316道键盘输入题），可继续追加第14周、第15周等。
 
-**首次升级请先阅读 [升级说明](docs/UPGRADE.md)。已装上一版时，本次第4周需要同时更新`tests/extension.test.cjs`，修正发布测试固定周数的问题；后续继续只添加JSON。**
+首页新增“语法专项”：6类、36个专题、288项练习，其中72道手机键盘输入题。专题自由进入，按分类分页，不按天解锁；讲解、词形表、朗读例句、练习和学习记录放在一起。专项进度、首次成绩与重练记录独立保存，不增加每日打卡。
 
-- 每周数据：`courses/week1-course.json`、`week2-course.json`、`week3-course.json`、`week4-course.json`。
-- 第2—4周完整文字与答案：`docs/week2-complete-lessons.md`、`docs/week3-complete-lessons.md`、`docs/week4-complete-lessons.md`。
-- 后续JSON结构：[课程格式](docs/COURSE-FORMAT.md)。
-- 录音许可：[录音署名](AUDIO-CREDITS.html)。字体许可：`assets/fonts/LICENSE.txt`。
-- 验证记录：`docs/VALIDATION.md`。
+## 已有应用如何升级
+
+已有前90课版本，解压 `grammar-module-update.zip`，把包内文件和文件夹合并到应用原位置，覆盖同名文件并一起提交。保留已有 `courses/`、`assets/` 和其他自加内容。等待部署成功后，在手机“…”中检查更新，完全关闭并重新打开，声音设置应显示 v3.0。
+
+完整安装包 `russian_90_day_pwa_github.zip` 包含全部程序、每日课程、语法专题和资源。第一次安装或版本较旧时使用完整包。部署与原站点共存说明见 [升级说明](docs/UPGRADE.md)。
+
+## 以后只添加内容
+
+| 要添加的内容 | 上传位置 | 配套 Actions 自动处理 |
+|---|---|---|
+| 第N周每日课程 | `courses/weekN-course.json` | 验证并生成周目录 |
+| 新专题模块 | `modules/新模块编号/module.json` 和分类 JSON | 自动增加首页入口、分类和分页 |
+| 既有模块的新分类 | `modules/既有模块编号/新分类编号.json` | 自动增加分类及专题 |
+| 某分类的新专题 | 更新该分类 JSON 的 `lessons` | 自动更新专题数量与页数 |
+
+**“只上传模块文件”需要使用包内 GitHub Actions 发布流程。** 构建扫描文件夹生成 `courses/catalog.json` 与 `modules/catalog.json`，不需要手改目录、首页、路由或 Service Worker。生成的目录只进入发布产物，不自动提交回源码仓库。
+
+使用 “Deploy from a branch” 时，须同时上传重新生成的对应目录，或上传构建后的静态文件。详细结构与完整可用示例见 [模块格式](docs/MODULE-FORMAT.md)。只添加 JSON 适用于已有讲解结构、六种题型和朗读方式；新录音需附资源，新增交互类型需升级引擎。
 
 ## GitHub Pages
 
-网页上传请分两批：先上传整个`assets`文件夹，再上传其他内容到俄语应用专用仓库根目录，包含`.github`、`scripts`、`tests`、`courses`与`assets`。在Settings → Pages中将Source设为GitHub Actions。默认分支每次提交都会自动检查、生成课程目录并发布。必要时在Actions中手动运行Publish Russian pocket course。
+将完整包 `russian_90_day_pwa/` 内的内容放到俄语应用专用仓库根目录，包括 `.github`、`scripts`、`tests`、`courses`、`modules`、`assets`。网页上传可分两批：先整个 `assets` 文件夹，再其余内容。Settings → Pages → Source 选择 **GitHub Actions**，提交默认分支后等待 “Publish Russian pocket course” 成功。
 
-以后只上传新周JSON到`courses/`并提交即可。手机在“…”中检查课程更新。不需要每周修改程序或手动登记目录。已有另一个Pages站点时，请使用独立仓库，或先合并现有发布流程。
+如果同一仓库还有其他 Pages 内容，需统一构建发布，或给俄语应用使用独立仓库；包内工作流发布整个俄语站点，不能用两个独立工作流轮流覆盖。
 
-## 本地维护
+## 记录、声音与离线
 
-不需要安装npm依赖。使用Node.js 22或更新版本运行：
+沿用原来的存储键及每日题号。同址、同浏览器保留旧记录；设置可导出每日与所有模块进度，也可导入旧版备份。备份没有的模块记录仍会保留，同一专题以导入内容为准，可撤销上一次导入。
+
+每日课程可“下载本周＋字母音频”；模块可“下载本分类”。词句朗读沿用设备俄语语音，离线需本地俄语声音。没有声音时可用文字辅助，仍记为听力待练。口语由学习者自检，不含自动语音识别。
+
+保留 v2.2 的重复点播、动态喇叭及 iOS 媒体播放会话处理。iPhone 静音下的系统朗读仍需实机验证；不保证所有系统版本一致。不要再将旧 `ios-audio-update.zip` 覆盖到 v3.0 上。
+
+## 文件与维护
+
+- [升级与后续上传说明](docs/UPGRADE.md)
+- [每日课程格式](docs/COURSE-FORMAT.md)；[模块格式](docs/MODULE-FORMAT.md)
+- 每日完整讲解与答案：`docs/weekN-complete-lessons.md`
+- 语法完整讲解与答案：[grammar-complete-lessons.md](docs/grammar-complete-lessons.md)
+- [本次验证记录](docs/VALIDATION.md)
+- [录音许可](AUDIO-CREDITS.html)；字体许可 `assets/fonts/LICENSE.txt`
+
+无需 npm 依赖。Node.js 22 或更新版本运行：
 
 ```sh
 node --test tests/*.test.cjs
 node scripts/build.mjs
 ```
 
-`site/`是构建结果；预览应使用HTTP访问。不要用file://双击打开。`scripts/make-courses.py`是本次第1—3周的编写源，后续上传新周JSON不需要运行它。日常部署直接使用已打包音频，录音处理信息保存在`assets/audio/credits.json`。
+`site/` 为静态产物。`modules.js` 负责通用校验与加载，`module-ui.js` 负责通用专题界面；都不包含固定模块列表。数据 JSON 是课程维护的依据，不要运行早期 `scripts/make-courses.py` 覆盖已有课程。
+
+本次已通过自动检查及浏览器手机宽度交互验证，尚未替用户执行真实 GitHub 部署或 iPhone 实机试听。
