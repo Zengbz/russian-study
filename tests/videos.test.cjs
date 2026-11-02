@@ -32,14 +32,15 @@ test('新增一份视频JSON即可自动出现在目录和分类，无需更改�
   for(const f of fs.readdirSync(root,{withFileTypes:true}).filter(e=>e.isFile()))fs.copyFileSync(path.join(root,f.name),path.join(dir,f.name));
   for(const d of ['assets','courses','scripts','modules','videos'])fs.cpSync(path.join(root,d),path.join(dir,d),{recursive:true});
   const before=fs.readFileSync(path.join(dir,'app.js')),oldWeek=fs.readFileSync(path.join(dir,'courses/week1-course.json'));
-  const next={...example(),id:'pronunciation-part-eleven',bvid:'BV1dT4y1A7Mb',title:'第11课',order:11,categories:['发音','入门'],p:2};
-  fs.writeFileSync(path.join(dir,'videos/pronunciation-part-eleven.json'),JSON.stringify(next));
+  const existing=fs.readdirSync(path.join(dir,'videos')).filter(f=>/^lesson-\d+\.json$/.test(f)).map(f=>JSON.parse(fs.readFileSync(path.join(dir,'videos',f))));
+  const next={...example(),id:'pronunciation-extension-probe',bvid:'BV1dT4y1A7Mb',title:'扩展测试视频',order:Math.max(...existing.map(x=>x.order))+1,categories:['发音','入门'],p:2};
+  fs.writeFileSync(path.join(dir,'videos/pronunciation-extension-probe.json'),JSON.stringify(next));
   execFileSync(process.execPath,[path.join(dir,'scripts/build.mjs')],{stdio:'pipe'});
   const c=videos.validateCatalog(JSON.parse(fs.readFileSync(path.join(dir,'site/videos/catalog.json'))));
-  assert.equal(c.videos.length,11);assert.deepEqual(videos.categories(c.videos),['俄语教程','发音','入门']);
-  assert.ok(fs.existsSync(path.join(dir,'site/videos/pronunciation-part-eleven.json')));
+  assert.equal(c.videos.length,existing.length+1);assert.deepEqual(videos.categories(c.videos),['俄语教程','发音','入门']);
+  assert.ok(fs.existsSync(path.join(dir,'site/videos/pronunciation-extension-probe.json')));
   assert.deepEqual(fs.readFileSync(path.join(dir,'app.js')),before);assert.deepEqual(fs.readFileSync(path.join(dir,'courses/week1-course.json')),oldWeek);
-  next.order=1;fs.writeFileSync(path.join(dir,'videos/pronunciation-part-eleven.json'),JSON.stringify(next));
+  next.order=1;fs.writeFileSync(path.join(dir,'videos/pronunciation-extension-probe.json'),JSON.stringify(next));
   assert.throws(()=>execFileSync(process.execPath,[path.join(dir,'scripts/build.mjs')],{stdio:'pipe'}));
  }finally{fs.rmSync(dir,{recursive:true,force:true});}
 });

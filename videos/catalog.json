@@ -121,6 +121,66 @@
       "categories": [
         "俄语教程"
       ]
+    },
+    {
+      "id": "lesson-11",
+      "title": "第11课",
+      "description": "B站视频教程 · 7分钟学会弹舌音（弹舌音 颤音）",
+      "provider": "bilibili",
+      "bvid": "BV1We41137fH",
+      "p": 1,
+      "order": 11,
+      "categories": [
+        "俄语教程"
+      ]
+    },
+    {
+      "id": "lesson-12",
+      "title": "第12课",
+      "description": "B站视频教程 · 俄语清音与浊音的发音 清化，浊化",
+      "provider": "bilibili",
+      "bvid": "BV1CP4y1o7Us",
+      "p": 1,
+      "order": 12,
+      "categories": [
+        "俄语教程"
+      ]
+    },
+    {
+      "id": "lesson-13",
+      "title": "第13课",
+      "description": "B站视频教程 · 俄语元音ы的发音与练习",
+      "provider": "bilibili",
+      "bvid": "BV1G14y1e7p5",
+      "p": 1,
+      "order": 13,
+      "categories": [
+        "俄语教程"
+      ]
+    },
+    {
+      "id": "lesson-14",
+      "title": "第14课",
+      "description": "B站视频教程 · 俄语手写体视频",
+      "provider": "bilibili",
+      "bvid": "BV1hY4y1M7CS",
+      "p": 1,
+      "order": 14,
+      "categories": [
+        "俄语教程"
+      ]
+    },
+    {
+      "id": "lesson-15",
+      "title": "第15课",
+      "description": "B站视频教程 · 动词意思与用法учить изучать учиться заниматься",
+      "provider": "bilibili",
+      "bvid": "BV1vV4y1u782",
+      "p": 1,
+      "order": 15,
+      "categories": [
+        "俄语教程"
+      ]
     }
   ]
 }
