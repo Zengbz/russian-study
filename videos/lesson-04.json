@@ -1,0 +1,12 @@
+{
+  "id": "lesson-04",
+  "title": "第4课",
+  "description": "B站视频教程 · 第4课",
+  "provider": "bilibili",
+  "bvid": "BV1FiFAzxEMQ",
+  "p": 1,
+  "order": 4,
+  "categories": [
+    "俄语教程"
+  ]
+}

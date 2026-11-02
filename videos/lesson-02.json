@@ -1,0 +1,12 @@
+{
+  "id": "lesson-02",
+  "title": "第2课",
+  "description": "B站视频教程 · 第2课",
+  "provider": "bilibili",
+  "bvid": "BV1CgFPzwEMV",
+  "p": 1,
+  "order": 2,
+  "categories": [
+    "俄语教程"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "lesson-06",
+  "title": "第6课",
+  "description": "B站视频教程 · 第6课",
+  "provider": "bilibili",
+  "bvid": "BV1FiFAzxEpW",
+  "p": 1,
+  "order": 6,
+  "categories": [
+    "俄语教程"
+  ]
+}

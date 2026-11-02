@@ -1,4 +1,29 @@
-# 俄语旅行口袋课 v3.1 · 俄语辅音拼读版
+# 俄语旅行口袋课 v3.2 · 视频教程版
+
+## v3.2 视频教程
+
+已有 v3.1 用户解压 `video-tutorial-update.zip` 到应用仓库的原目录，合并覆盖同名文件并提交，等待 GitHub Pages Actions 部署。视频模块与每日课程、语法专项和进度记录独立；B站视频由官方播放器在线播放，页内可暂停和拖动，无法嵌入时可点“去B站观看”。离线下载不包含第三方视频。更新后在手机“…”检查更新，完全关闭 PWA 再重新打开，设置中的版本提示应显示 v3.2。不要用旧补丁再覆盖新版程序文件。
+
+### 以后增加视频：只上传一份 JSON
+
+在 `videos/` 下新建 `lesson-11.json`，内容格式例如（把 BV 号替换为新视频的编号）：
+
+```json
+{
+  "id": "lesson-11",
+  "title": "第11课 · 我填写的视频标题",
+  "description": "这节视频练什么",
+  "provider": "bilibili",
+  "bvid": "BV1dT4y1A7Ma",
+  "p": 1,
+  "order": 11,
+  "categories": ["发音", "入门"]
+}
+```
+
+`id` 必须与文件名一致且不重复；`order` 是你指定的列表编号，也不能重复，正序从小到大、倒序相反。`categories` 自由填写，可有多个标签，分类选项会从所有视频 JSON 中自动汇总，不能使用保留标签“全部”。`bvid` 填链接 `/video/` 后面的 BV 号，`p` 是从 1 开始的分P编号。当前包中的 `videos/lesson-01.json` 到 `videos/lesson-10.json` 已按你给的顺序填入10条链接；由于无法核实原站标题，用“第1课”至“第10课”作为可编辑标题，分类暂设“俄语教程”。你可以直接修改各文件的 `title`、`description` 和 `categories`，不用修改程序。
+
+提交新增的 JSON 后，包内 GitHub Actions 会扫描 `videos/`、校验条目、自动重新生成 `videos/catalog.json` 并发布。**只提交原始 JSON 即可；不必手改 catalog，也不用重新上传全站。** 如果没有使用包内 Actions 构建，则需要本地运行 `node scripts/build.mjs` 并发布生成的 `site/`。确保应用部署路径的文件夹层级不变。
 
 ## v3.1 辅音拼读录音
 

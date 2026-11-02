@@ -1,0 +1,12 @@
+{
+  "id": "lesson-10",
+  "title": "第10课",
+  "description": "B站视频教程 · 第10课",
+  "provider": "bilibili",
+  "bvid": "BV1rVFPzFEas",
+  "p": 1,
+  "order": 10,
+  "categories": [
+    "俄语教程"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "kind": "video-catalog",
+  "videos": [
+    {
+      "id": "lesson-01",
+      "title": "第1课",
+      "description": "B站视频教程 · 第1课",
+      "provider": "bilibili",
+      "bvid": "BV1dT4y1A7Ma",
+      "p": 1,
+      "order": 1,
+      "categories": [
+        "俄语教程"
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "title": "第2课",
+      "description": "B站视频教程 · 第2课",
+      "provider": "bilibili",
+      "bvid": "BV1CgFPzwEMV",
+      "p": 1,
+      "order": 2,
+      "categories": [
+        "俄语教程"
+      ]
+    },
+    {
+      "id": "lesson-03",
+      "title": "第3课",
+      "description": "B站视频教程 · 第3课",
+      "provider": "bilibili",
+      "bvid": "BV1c5FPz8EBE",
+      "p": 1,
+      "order": 3,
+      "categories": [
+        "俄语教程"
+      ]
+    },
+    {
+      "id": "lesson-04",
+      "title": "第4课",
+      "description": "B站视频教程 · 第4课",
+      "provider": "bilibili",
+      "bvid": "BV1FiFAzxEMQ",
+      "p": 1,
+      "order": 4,
+      "categories": [
+        "俄语教程"
+      ]
+    },
+    {
+      "id": "lesson-05",
+      "title": "第5课",
+      "description": "B站视频教程 · 第5课",
+      "provider": "bilibili",
+      "bvid": "BV1c5FPz8Ebc",
+      "p": 1,
+      "order": 5,
+      "categories": [
+        "俄语教程"
+      ]
+    },
+    {
+      "id": "lesson-06",
+      "title": "第6课",
+      "description": "B站视频教程 · 第6课",
+      "provider": "bilibili",
+      "bvid": "BV1FiFAzxEpW",
+      "p": 1,
+      "order": 6,
+      "categories": [
+        "俄语教程"
+      ]
+    },
+    {
+      "id": "lesson-07",
+      "title": "第7课",
+      "description": "B站视频教程 · 第7课",
+      "provider": "bilibili",
+      "bvid": "BV1rVFPzFEiW",
+      "p": 1,
+      "order": 7,
+      "categories": [
+        "俄语教程"
+      ]
+    },
+    {
+      "id": "lesson-08",
+      "title": "第8课",
+      "description": "B站视频教程 · 第8课",
+      "provider": "bilibili",
+      "bvid": "BV1QQFAz5EXM",
+      "p": 1,
+      "order": 8,
+      "categories": [
+        "俄语教程"
+      ]
+    },
+    {
+      "id": "lesson-09",
+      "title": "第9课",
+      "description": "B站视频教程 · 第9课",
+      "provider": "bilibili",
+      "bvid": "BV1rVFPzFEss",
+      "p": 1,
+      "order": 9,
+      "categories": [
+        "俄语教程"
+      ]
+    },
+    {
+      "id": "lesson-10",
+      "title": "第10课",
+      "description": "B站视频教程 · 第10课",
+      "provider": "bilibili",
+      "bvid": "BV1rVFPzFEas",
+      "p": 1,
+      "order": 10,
+      "categories": [
+        "俄语教程"
+      ]
+    }
+  ]
+}

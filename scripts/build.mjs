@@ -6,6 +6,7 @@ import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const core=createRequire(import.meta.url)('../core.js');
 const modules=createRequire(import.meta.url)('../modules.js');
+const videos=createRequire(import.meta.url)('../videos.js');
 const files=fs.readdirSync(path.join(root,'courses')).filter(f=>/^week[1-9]\d*-course\.json$/.test(f));
 if(!files.length)throw Error('courses/ 下没有有效的每周课程。');
 const weeks=[],days=new Set(),ids=new Set();
@@ -39,12 +40,22 @@ if(fs.existsSync(moduleRoot))for(const entry of fs.readdirSync(moduleRoot,{withF
 }
 moduleCatalog.modules.sort((a,b)=>a.order-b.order||a.id.localeCompare(b.id));modules.validateCatalog(moduleCatalog);
 fs.mkdirSync(moduleRoot,{recursive:true});fs.writeFileSync(path.join(moduleRoot,'catalog.json'),JSON.stringify(moduleCatalog,null,2)+'\n');
+// Each video is a self-contained JSON entry. A new file is enough to extend the directory.
+const videoRoot=path.join(root,'videos'),videoCatalog={schemaVersion:1,kind:'video-catalog',videos:[]};
+fs.mkdirSync(videoRoot,{recursive:true});
+for(const file of fs.readdirSync(videoRoot).filter(f=>f.endsWith('.json')&&f!=='catalog.json')){
+ const video=videos.validateItem(JSON.parse(fs.readFileSync(path.join(videoRoot,file))));
+ if(file!==video.id+'.json')throw Error('视频文件名与id不一致：'+file);
+ videoCatalog.videos.push(video);
+}
+videoCatalog.videos.sort((a,b)=>a.order-b.order);videos.validateCatalog(videoCatalog);
+fs.writeFileSync(path.join(videoRoot,'catalog.json'),JSON.stringify(videoCatalog,null,2)+'\n');
 const alphabet=JSON.parse(fs.readFileSync(path.join(root,'alphabet.json')));
 for(const l of alphabet)for(const key of ['soundFile','nameFile'])if(!l[key]||!fs.existsSync(path.join(root,l[key])))throw Error('缺少字母录音：'+l.upper+' '+key+' '+l[key]);
-const runtime=['index.html','styles.css','app.js','core.js','loader.js','audio.js','modules.js','module-ui.js','sw.js','alphabet.json','roadmap.json','manifest.webmanifest','icon.svg','icon-192.png','icon-512.png','AUDIO-CREDITS.html','.nojekyll'];
+const runtime=['index.html','styles.css','app.js','core.js','loader.js','audio.js','modules.js','module-ui.js','videos.js','video-ui.js','sw.js','alphabet.json','roadmap.json','manifest.webmanifest','icon.svg','icon-192.png','icon-512.png','AUDIO-CREDITS.html','.nojekyll'];
 const out=path.join(root,process.argv[2]||'site');
 if(!['site','dist'].includes(path.basename(out))||path.dirname(out)!==root)throw Error('仅允许输出到项目的site/或dist/。');
 fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
 for(const f of runtime)fs.copyFileSync(path.join(root,f),path.join(out,f));
-for(const f of ['assets','courses','modules'])fs.cpSync(path.join(root,f),path.join(out,f),{recursive:true});
-console.log(JSON.stringify({weeks:weeks.length,lessons:days.size,questions:weeks.reduce((n,w)=>n+w.lessons.reduce((n,l)=>n+l.tasks,0),0),modules:moduleCatalog.modules.length,topics:moduleCatalog.modules.reduce((n,m)=>n+m.categories.reduce((n,c)=>n+c.lessons.length,0),0),output:out}));
+for(const f of ['assets','courses','modules','videos'])fs.cpSync(path.join(root,f),path.join(out,f),{recursive:true});
+console.log(JSON.stringify({weeks:weeks.length,lessons:days.size,questions:weeks.reduce((n,w)=>n+w.lessons.reduce((n,l)=>n+l.tasks,0),0),modules:moduleCatalog.modules.length,topics:moduleCatalog.modules.reduce((n,m)=>n+m.categories.reduce((n,c)=>n+c.lessons.length,0),0),videos:videoCatalog.videos.length,output:out}));

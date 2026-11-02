@@ -1,0 +1,12 @@
+{
+  "id": "lesson-03",
+  "title": "第3课",
+  "description": "B站视频教程 · 第3课",
+  "provider": "bilibili",
+  "bvid": "BV1c5FPz8EBE",
+  "p": 1,
+  "order": 3,
+  "categories": [
+    "俄语教程"
+  ]
+}

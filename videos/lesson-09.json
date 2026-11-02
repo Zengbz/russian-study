@@ -1,0 +1,12 @@
+{
+  "id": "lesson-09",
+  "title": "第9课",
+  "description": "B站视频教程 · 第9课",
+  "provider": "bilibili",
+  "bvid": "BV1rVFPzFEss",
+  "p": 1,
+  "order": 9,
+  "categories": [
+    "俄语教程"
+  ]
+}

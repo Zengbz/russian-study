@@ -1,0 +1,12 @@
+{
+  "id": "lesson-07",
+  "title": "第7课",
+  "description": "B站视频教程 · 第7课",
+  "provider": "bilibili",
+  "bvid": "BV1rVFPzFEiW",
+  "p": 1,
+  "order": 7,
+  "categories": [
+    "俄语教程"
+  ]
+}
