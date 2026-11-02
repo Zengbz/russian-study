@@ -1,0 +1,191 @@
+[
+  {
+    "letter": "Б",
+    "syllable": "ба",
+    "file": "assets/audio/alphabet-ru-v1/б-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D0%B1%D0%B0.ogg",
+    "author": "Aleksey Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "В",
+    "syllable": "ва",
+    "file": "assets/audio/alphabet-ru-v1/в-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D0%B2%D0%B0.ogg",
+    "author": "Aleksey Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "Г",
+    "syllable": "га",
+    "file": "assets/audio/alphabet-ru-v1/г-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D0%B3%D0%B0.ogg",
+    "author": "Aleksey Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "Д",
+    "syllable": "да",
+    "file": "assets/audio/alphabet-ru-v1/д-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D0%B4%D0%B0_%28da%29.ogg",
+    "author": "Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "Ж",
+    "syllable": "жа",
+    "file": "assets/audio/alphabet-ru-v1/ж-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D0%B6%D0%B0.ogg",
+    "author": "Aleksey Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "З",
+    "syllable": "за",
+    "file": "assets/audio/alphabet-ru-v1/з-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D0%B7%D0%B0.ogg",
+    "author": "Сергей Сахно, Vion Nicolas",
+    "license": "CC BY 3.0 us",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en"
+  },
+  {
+    "letter": "Й",
+    "syllable": "йо",
+    "file": "assets/audio/alphabet-ru-v1/й-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D0%B9%D0%BE.ogg",
+    "author": "Aleksey Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "К",
+    "syllable": "ка",
+    "file": "assets/audio/alphabet-ru-v1/к-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D0%BA%D0%B0%CC%81.ogg",
+    "author": "Aleksey Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "Л",
+    "syllable": "ла",
+    "file": "assets/audio/alphabet-ru-v1/л-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D0%BB%D0%B0.ogg",
+    "author": "Aleksey Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "М",
+    "syllable": "ма",
+    "file": "assets/audio/alphabet-ru-v1/м-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D0%BC%D0%B0.ogg",
+    "author": "Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "Н",
+    "syllable": "на",
+    "file": "assets/audio/alphabet-ru-v1/н-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D0%BD%D0%B0.ogg",
+    "author": "Сергей Сахно, Vion Nicolas",
+    "license": "CC BY 3.0 us",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en"
+  },
+  {
+    "letter": "П",
+    "syllable": "па",
+    "file": "assets/audio/alphabet-ru-v1/п-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D0%BF%D0%B0.ogg",
+    "author": "Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "Р",
+    "syllable": "ра",
+    "file": "assets/audio/alphabet-ru-v1/р-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D1%80%D0%B0.ogg",
+    "author": "Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "С",
+    "syllable": "са",
+    "file": "assets/audio/alphabet-ru-v1/с-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D1%81%D0%B0_%28sa%29.ogg",
+    "author": "Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "Т",
+    "syllable": "та",
+    "file": "assets/audio/alphabet-ru-v1/т-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D1%82%D0%B0.ogg",
+    "author": "Pogrebnoj-Alexandroff",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  {
+    "letter": "Ф",
+    "syllable": "фэ",
+    "file": "assets/audio/alphabet-ru-v1/ф-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D1%84%D1%8D.ogg",
+    "author": "Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+  },
+  {
+    "letter": "Х",
+    "syllable": "ха",
+    "file": "assets/audio/alphabet-ru-v1/х-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D1%85%D0%B0.ogg",
+    "author": "Aleksey Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "Ц",
+    "syllable": "ца",
+    "file": "assets/audio/alphabet-ru-v1/ц-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D1%86%D0%B0.ogg",
+    "author": "Aleksey Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "Ч",
+    "syllable": "ча",
+    "file": "assets/audio/alphabet-ru-v1/ч-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D1%87%D0%B0.ogg",
+    "author": "Aleksey Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "Ш",
+    "syllable": "ша",
+    "file": "assets/audio/alphabet-ru-v1/ш-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D1%88%D0%B0.ogg",
+    "author": "Aleksey Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "letter": "Щ",
+    "syllable": "ща",
+    "file": "assets/audio/alphabet-ru-v1/щ-syllable.mp3",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru-%D1%89%D0%B0.ogg",
+    "author": "Aleksey Pogrebnoj-Alexandroff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+]
