@@ -1,0 +1,8 @@
+{
+  "id": "hotel", "order": 8, "title": "旅馆入住", "category": "旅行", "level": "A1 · 进阶", "description": "住一晚、拿到钥匙、再询问电梯的位置。",
+  "segments": [
+    {"ru":"Я хотел бы остановиться на одну ночь.","zh":"我想住一晚。（男性说话者）","gloss":[{"ru":"Я","zh":"我"},{"ru":"хотел бы","zh":"想要；希望（男性礼貌说法）"},{"ru":"остановиться","zh":"停留；住宿"},{"ru":"на одну ночь","zh":"住一晚"}],"audioFile":"reading/audio/29587.mp3","source":{"sentenceId":374753,"audioId":29587,"speaker":"Inego","license":"CC BY 4.0"}},
+    {"ru":"Вот ключ.","zh":"这是钥匙。","gloss":[{"ru":"Вот","zh":"这就是；给您"},{"ru":"ключ","zh":"钥匙"}],"audioFile":"reading/audio/152305.mp3","source":{"sentenceId":2589964,"audioId":152305,"speaker":"Inego","license":"CC BY 4.0"}},
+    {"ru":"Где лифт?","zh":"电梯在哪里？","gloss":[{"ru":"Где","zh":"哪里"},{"ru":"лифт","zh":"电梯"}],"audioFile":"reading/audio/57511.mp3","source":{"sentenceId":1036458,"audioId":57511,"speaker":"Inego","license":"CC BY 4.0"}}
+  ]
+}

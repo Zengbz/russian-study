@@ -1,4 +1,10 @@
-# 俄语旅行口袋课 v3.2 · 视频教程版
+# 俄语旅行口袋课 v3.3 · 真人录音阅读理解
+
+## v3.3 阅读理解
+
+首页新增“阅读理解”，首批八篇、27句可核对来源的真人俄语 MP3，从问候、闲聊、请求重复逐步走向咖啡馆、问路、车票、出租车、机场与住宿。每篇按 **只听录音 → 听录音并看俄文 → 听录音、看俄文、中文句意和逐词释义** 三步展开，每句可反复点播，可下载本篇音频离线重听。完成标记随学习记录备份，不增加每日打卡。
+
+新增内容仅需上传 `reading/新编号.json` 和相应 `reading/audio/录音编号.mp3`，GitHub Actions 会自动更新目录；不用修改首页或其他模块。格式、来源核验与录音许可见 [听读内容格式](docs/READING-FORMAT.md) 和 [录音许可](AUDIO-CREDITS.html)。真人音频录自 Tatoeba 志愿者，文字来自对应句号；每句均标记作者、原句链接和授权。
 
 ## v3.2 视频教程
 
@@ -47,6 +53,7 @@
 | 新专题模块 | `modules/新模块编号/module.json` 和分类 JSON | 自动增加首页入口、分类和分页 |
 | 既有模块的新分类 | `modules/既有模块编号/新分类编号.json` | 自动增加分类及专题 |
 | 某分类的新专题 | 更新该分类 JSON 的 `lessons` | 自动更新专题数量与页数 |
+| 新听读材料 | `reading/新编号.json` + `reading/audio/录音编号.mp3` | 验证许可、音频与文字格式，生成听读目录 |
 
 **“只上传模块文件”需要使用包内 GitHub Actions 发布流程。** 构建扫描文件夹生成 `courses/catalog.json` 与 `modules/catalog.json`，不需要手改目录、首页、路由或 Service Worker。生成的目录只进入发布产物，不自动提交回源码仓库。
 
@@ -69,7 +76,7 @@
 ## 文件与维护
 
 - [升级与后续上传说明](docs/UPGRADE.md)
-- [每日课程格式](docs/COURSE-FORMAT.md)；[模块格式](docs/MODULE-FORMAT.md)
+- [每日课程格式](docs/COURSE-FORMAT.md)；[模块格式](docs/MODULE-FORMAT.md)；[听读格式](docs/READING-FORMAT.md)
 - 每日完整讲解与答案：`docs/weekN-complete-lessons.md`
 - 语法完整讲解与答案：[grammar-complete-lessons.md](docs/grammar-complete-lessons.md)
 - [本次验证记录](docs/VALIDATION.md)

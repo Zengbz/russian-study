@@ -1,0 +1,9 @@
+{
+  "id": "tickets", "order": 6, "title": "车站与车票", "category": "旅行", "level": "A1 · 基础", "description": "询问火车站、票价，识别车票与出示车票的表达。",
+  "segments": [
+    {"ru":"Вокзал здесь?","zh":"火车站在这里吗？","gloss":[{"ru":"Вокзал","zh":"火车站"},{"ru":"здесь","zh":"这里"}],"audioFile":"reading/audio/928175.mp3","source":{"sentenceId":2552098,"audioId":928175,"speaker":"Inego","license":"CC BY 4.0"}},
+    {"ru":"Почём билет?","zh":"票多少钱？","gloss":[{"ru":"Почём","zh":"多少钱；什么价格"},{"ru":"билет","zh":"票；车票"}],"audioFile":"reading/audio/1264545.mp3","source":{"sentenceId":3697907,"audioId":1264545,"speaker":"EugeneGS","license":"CC BY 4.0"}},
+    {"ru":"У меня уже есть билет на автобус.","zh":"我已经有公交车票了。","gloss":[{"ru":"У меня","zh":"我有……"},{"ru":"уже","zh":"已经"},{"ru":"есть","zh":"有"},{"ru":"билет","zh":"票"},{"ru":"на автобус","zh":"乘公交车的；公交车票"}],"audioFile":"reading/audio/1267693.mp3","source":{"sentenceId":6686450,"audioId":1267693,"speaker":"EugeneGS","license":"CC BY 4.0"}},
+    {"ru":"Предъявите билет, пожалуйста.","zh":"请出示车票。","gloss":[{"ru":"Предъявите","zh":"请出示"},{"ru":"билет","zh":"票"},{"ru":"пожалуйста","zh":"请"}],"audioFile":"reading/audio/681367.mp3","source":{"sentenceId":4920358,"audioId":681367,"speaker":"fjay69","license":"CC BY 4.0"}}
+  ]
+}

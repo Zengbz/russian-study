@@ -1,0 +1,9 @@
+{
+  "id": "greetings", "order": 1, "title": "问候与认识", "category": "日常", "level": "A1 · 入门", "description": "从早安、自我介绍到问候近况。先只听四句，再看俄文与意思。",
+  "segments": [
+    {"ru":"Доброе утро!","zh":"早上好！","gloss":[{"ru":"Доброе","zh":"好的；这里构成问候语"},{"ru":"утро","zh":"早晨"}],"audioFile":"reading/audio/25296.mp3","source":{"sentenceId":329715,"audioId":25296,"speaker":"Inego","license":"CC BY 4.0"}},
+    {"ru":"Как Вас зовут?","zh":"您叫什么名字？","gloss":[{"ru":"Как","zh":"怎样；如何"},{"ru":"Вас","zh":"您（宾格，礼貌称呼）"},{"ru":"зовут","zh":"叫作；称呼"}],"audioFile":"reading/audio/29088.mp3","source":{"sentenceId":370373,"audioId":29088,"speaker":"Inego","license":"CC BY 4.0"}},
+    {"ru":"Меня зовут Кирилл, рад познакомиться.","zh":"我叫基里尔，很高兴认识您。","gloss":[{"ru":"Меня","zh":"我（宾格）"},{"ru":"зовут","zh":"叫作"},{"ru":"Кирилл","zh":"基里尔（人名）"},{"ru":"рад","zh":"很高兴（男性说话者）"},{"ru":"познакомиться","zh":"认识；结识"}],"audioFile":"reading/audio/29165.mp3","source":{"sentenceId":370796,"audioId":29165,"speaker":"Inego","license":"CC BY 4.0"}},
+    {"ru":"Как дела?","zh":"最近怎么样？","gloss":[{"ru":"Как","zh":"怎么样"},{"ru":"дела","zh":"事情；近况"}],"audioFile":"reading/audio/35722.mp3","source":{"sentenceId":473035,"audioId":35722,"speaker":"Inego","license":"CC BY 4.0"}}
+  ]
+}

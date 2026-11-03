@@ -1,0 +1,8 @@
+{
+  "id": "small-talk", "order": 2, "title": "天气与咖啡", "category": "日常", "level": "A1 · 入门", "description": "听懂天气描述，以及邀请和询问是否喜欢咖啡。",
+  "segments": [
+    {"ru":"Сегодня жарко.","zh":"今天很热。","gloss":[{"ru":"Сегодня","zh":"今天"},{"ru":"жарко","zh":"热；天气炎热"}],"audioFile":"reading/audio/29686.mp3","source":{"sentenceId":376032,"audioId":29686,"speaker":"Inego","license":"CC BY 4.0"}},
+    {"ru":"Попьём кофе?","zh":"一起喝点咖啡吗？","gloss":[{"ru":"Попьём","zh":"我们喝一点吧"},{"ru":"кофе","zh":"咖啡"}],"audioFile":"reading/audio/1264832.mp3","source":{"sentenceId":11410646,"audioId":1264832,"speaker":"EugeneGS","license":"CC BY 4.0"}},
+    {"ru":"Вы любите кофе?","zh":"您喜欢咖啡吗？","gloss":[{"ru":"Вы","zh":"您；你们"},{"ru":"любите","zh":"喜欢"},{"ru":"кофе","zh":"咖啡"}],"audioFile":"reading/audio/727741.mp3","source":{"sentenceId":2984140,"audioId":727741,"speaker":"fjay69","license":"CC BY 4.0"}}
+  ]
+}

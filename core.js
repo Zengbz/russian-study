@@ -113,6 +113,10 @@
         if(m.browse&&(!object(m.browse)||!id(m.browse.category)||!Number.isSafeInteger(m.browse.page)||m.browse.page<1))throw new Error('专题分页记录无效。');
       }
     }
+    if(s.reading!==undefined){
+      if(!s.reading||typeof s.reading!=='object'||Array.isArray(s.reading)||!s.reading.completed||typeof s.reading.completed!=='object'||Array.isArray(s.reading.completed))throw new Error('听读进度格式无效。');
+      for(const [id,value] of Object.entries(s.reading.completed))if(!/^[a-z][a-z0-9-]{0,62}[a-z0-9]$/.test(id)||value!==true)throw new Error('听读进度格式无效。');
+    }
     // JSON roundtrip + forbidden-key rejection prevents prototype keys in imports.
     return JSON.parse(JSON.stringify(s),(key,value)=>{if(['__proto__','prototype','constructor'].includes(key))throw new Error('备份包含无效字段。');return value;});
   }

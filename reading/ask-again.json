@@ -1,0 +1,8 @@
+{
+  "id": "ask-again", "order": 3, "title": "没听懂时怎么说", "category": "日常", "level": "A1 · 入门", "description": "没听懂、请对方重复、请求帮忙。旅行中也能用得上。",
+  "segments": [
+    {"ru":"Я не понимаю.","zh":"我听不懂／我不明白。","gloss":[{"ru":"Я","zh":"我"},{"ru":"не","zh":"不"},{"ru":"понимаю","zh":"明白；听懂（我）"}],"audioFile":"reading/audio/28233.mp3","source":{"sentenceId":338488,"audioId":28233,"speaker":"Inego","license":"CC BY 4.0"}},
+    {"ru":"Повторите.","zh":"请再说一遍。","gloss":[{"ru":"Повторите","zh":"请重复（礼貌命令式）"}],"audioFile":"reading/audio/928411.mp3","source":{"sentenceId":4250052,"audioId":928411,"speaker":"Inego","license":"CC BY 4.0"}},
+    {"ru":"Помогите, пожалуйста.","zh":"请帮帮我。","gloss":[{"ru":"Помогите","zh":"请帮忙（礼貌命令式）"},{"ru":"пожалуйста","zh":"请"}],"audioFile":"reading/audio/679233.mp3","source":{"sentenceId":2699817,"audioId":679233,"speaker":"fjay69","license":"CC BY 4.0"}}
+  ]
+}

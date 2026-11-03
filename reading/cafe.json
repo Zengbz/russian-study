@@ -1,0 +1,8 @@
+{
+  "id": "cafe", "order": 4, "title": "在咖啡馆", "category": "旅行", "level": "A1 · 基础", "description": "点咖啡和水，最后听懂服务员提到账单。",
+  "segments": [
+    {"ru":"Кофе, пожалуйста.","zh":"请来一杯咖啡。","gloss":[{"ru":"Кофе","zh":"咖啡"},{"ru":"пожалуйста","zh":"请；麻烦您"}],"audioFile":"reading/audio/679202.mp3","source":{"sentenceId":2443439,"audioId":679202,"speaker":"fjay69","license":"CC BY 4.0"}},
+    {"ru":"Воды, пожалуйста.","zh":"请来点水。","gloss":[{"ru":"Воды","zh":"水（部分格形式）"},{"ru":"пожалуйста","zh":"请"}],"audioFile":"reading/audio/679198.mp3","source":{"sentenceId":2430284,"audioId":679198,"speaker":"fjay69","license":"CC BY 4.0"}},
+    {"ru":"Я Вам счёт сейчас принесу.","zh":"我现在给您拿账单来。","gloss":[{"ru":"Я","zh":"我"},{"ru":"Вам","zh":"给您"},{"ru":"счёт","zh":"账单"},{"ru":"сейчас","zh":"现在"},{"ru":"принесу","zh":"我会拿来"}],"audioFile":"reading/audio/29620.mp3","source":{"sentenceId":374876,"audioId":29620,"speaker":"Inego","license":"CC BY 4.0"}}
+  ]
+}

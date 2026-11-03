@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "kind": "reading-catalog",
+  "items": [
+    {
+      "id": "greetings",
+      "order": 1,
+      "title": "问候与认识",
+      "category": "日常",
+      "level": "A1 · 入门",
+      "description": "从早安、自我介绍到问候近况。先只听四句，再看俄文与意思。",
+      "segments": 4,
+      "file": "reading/greetings.json",
+      "revision": "6f40bedba3f135856bc4ca8ca4fd088d57f745a988e32c0aca25c12a58ff6491"
+    },
+    {
+      "id": "small-talk",
+      "order": 2,
+      "title": "天气与咖啡",
+      "category": "日常",
+      "level": "A1 · 入门",
+      "description": "听懂天气描述，以及邀请和询问是否喜欢咖啡。",
+      "segments": 3,
+      "file": "reading/small-talk.json",
+      "revision": "9d301766a337a4c7f3f9267361fb7b9f6fc893f48434cf7622307fc272103f73"
+    },
+    {
+      "id": "ask-again",
+      "order": 3,
+      "title": "没听懂时怎么说",
+      "category": "日常",
+      "level": "A1 · 入门",
+      "description": "没听懂、请对方重复、请求帮忙。旅行中也能用得上。",
+      "segments": 3,
+      "file": "reading/ask-again.json",
+      "revision": "820bfc0d121e27bcf893e9f1d6d1dc8dbb5d7379bb0ea5ee7b9e3834d8de866f"
+    },
+    {
+      "id": "cafe",
+      "order": 4,
+      "title": "在咖啡馆",
+      "category": "旅行",
+      "level": "A1 · 基础",
+      "description": "点咖啡和水，最后听懂服务员提到账单。",
+      "segments": 3,
+      "file": "reading/cafe.json",
+      "revision": "0afdf541948d609a679cf5b57c0c7495f872b3ac0af16ad675bae279b0249f2c"
+    },
+    {
+      "id": "directions",
+      "order": 5,
+      "title": "问路与方向",
+      "category": "旅行",
+      "level": "A1 · 基础",
+      "description": "问出口和车站在哪里；分清向右转与在下个路口左转。",
+      "segments": 4,
+      "file": "reading/directions.json",
+      "revision": "f9f63a99429da2a45eb8ca5f0ceb6b46a14d4e1728098c8ecaf6a8aee9edb53d"
+    },
+    {
+      "id": "tickets",
+      "order": 6,
+      "title": "车站与车票",
+      "category": "旅行",
+      "level": "A1 · 基础",
+      "description": "询问火车站、票价，识别车票与出示车票的表达。",
+      "segments": 4,
+      "file": "reading/tickets.json",
+      "revision": "20ce8fba82418ff75bd044b425dca9297e84de57331be50dfe627340768ddb64"
+    },
+    {
+      "id": "taxi-airport",
+      "order": 7,
+      "title": "打车去机场",
+      "category": "旅行",
+      "level": "A1 · 基础",
+      "description": "从提出打车、请人叫车，到告诉司机去机场。",
+      "segments": 3,
+      "file": "reading/taxi-airport.json",
+      "revision": "910cbad0ddc32d1d95a48f94db2363e62f9fa5f9e06e4e872d679b50653001f3"
+    },
+    {
+      "id": "hotel",
+      "order": 8,
+      "title": "旅馆入住",
+      "category": "旅行",
+      "level": "A1 · 进阶",
+      "description": "住一晚、拿到钥匙、再询问电梯的位置。",
+      "segments": 3,
+      "file": "reading/hotel.json",
+      "revision": "8ea7de77f1d89b76065c91829d1170f873813dce7d764fbe97192ae0e06fd7f3"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "taxi-airport", "order": 7, "title": "打车去机场", "category": "旅行", "level": "A1 · 基础", "description": "从提出打车、请人叫车，到告诉司机去机场。",
+  "segments": [
+    {"ru":"Возьмём такси?","zh":"我们打辆出租车好吗？","gloss":[{"ru":"Возьмём","zh":"我们乘／叫一辆吧"},{"ru":"такси","zh":"出租车"}],"audioFile":"reading/audio/724819.mp3","source":{"sentenceId":2242516,"audioId":724819,"speaker":"fjay69","license":"CC BY 4.0"}},
+    {"ru":"Вы не вызовите мне такси?","zh":"您能帮我叫辆出租车吗？","gloss":[{"ru":"Вы","zh":"您"},{"ru":"не вызовите","zh":"这里是委婉请求：能否叫来"},{"ru":"мне","zh":"给我"},{"ru":"такси","zh":"出租车"}],"audioFile":"reading/audio/679272.mp3","source":{"sentenceId":3555184,"audioId":679272,"speaker":"fjay69","license":"CC BY 4.0"}},
+    {"ru":"Поезжайте в аэропорт, пожалуйста.","zh":"请开往机场。","gloss":[{"ru":"Поезжайте","zh":"请开车前往"},{"ru":"в аэропорт","zh":"去机场"},{"ru":"пожалуйста","zh":"请"}],"audioFile":"reading/audio/738485.mp3","source":{"sentenceId":6471177,"audioId":738485,"speaker":"fjay69","license":"CC BY 4.0"}}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "directions", "order": 5, "title": "问路与方向", "category": "旅行", "level": "A1 · 基础", "description": "问出口和车站在哪里；分清向右转与在下个路口左转。",
+  "segments": [
+    {"ru":"Простите, где находится выход?","zh":"请问，出口在哪里？","gloss":[{"ru":"Простите","zh":"打扰一下；请问"},{"ru":"где","zh":"哪里"},{"ru":"находится","zh":"位于"},{"ru":"выход","zh":"出口"}],"audioFile":"reading/audio/687122.mp3","source":{"sentenceId":3452806,"audioId":687122,"speaker":"fjay69","license":"CC BY 4.0"}},
+    {"ru":"Где остановка?","zh":"车站／公交站在哪里？","gloss":[{"ru":"Где","zh":"哪里"},{"ru":"остановка","zh":"车站；公交站"}],"audioFile":"reading/audio/1264556.mp3","source":{"sentenceId":3718481,"audioId":1264556,"speaker":"EugeneGS","license":"CC BY 4.0"}},
+    {"ru":"Поверните направо, пожалуйста.","zh":"请向右转。","gloss":[{"ru":"Поверните","zh":"请转弯"},{"ru":"направо","zh":"向右"},{"ru":"пожалуйста","zh":"请"}],"audioFile":"reading/audio/681343.mp3","source":{"sentenceId":4753487,"audioId":681343,"speaker":"fjay69","license":"CC BY 4.0"}},
+    {"ru":"За следующим углом поверните налево.","zh":"过下一个拐角后请向左转。","gloss":[{"ru":"За","zh":"在……之后"},{"ru":"следующим","zh":"下一个的（工具格）"},{"ru":"углом","zh":"拐角（工具格）"},{"ru":"поверните","zh":"请转弯"},{"ru":"налево","zh":"向左"}],"audioFile":"reading/audio/30816.mp3","source":{"sentenceId":380007,"audioId":30816,"speaker":"Inego","license":"CC BY 4.0"}}
+  ]
+}
